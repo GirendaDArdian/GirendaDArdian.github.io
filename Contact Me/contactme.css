@@ -1,0 +1,252 @@
+#login {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #359bc0;
+    border-color: rgb(20, 172, 218);
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: -100px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: 'Comic Book';
+    color: rgb(255, 255, 255);
+
+}
+
+#login:hover {
+    background-color: #318aaa;
+}
+
+
+#signin {
+    text-decoration: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #359bc0;
+    border-color: rgb(20, 172, 218);
+    font-size: 20px;
+    margin-top: -100px;
+    font-family: 'Comic Book';
+    color: rgb(255, 255, 255);
+
+}
+
+
+#signin:hover {
+    text-decoration: none;
+    background-color: #318aaa;
+}
+
+.penjelasan {
+    font-family: 'Comic Book';
+}
+
+#signin:active {
+    text-decoration: none;
+    background-color: #359bc0;
+}
+
+
+body {
+    background-color: #2F86A6;
+    height: 400px;
+    width: 1100px;
+}
+
+.headerutama {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#2F86A6, #96C7C1);
+    height: max-content;
+    margin-left: -10px;
+    width: 1288px;
+    padding-bottom: 150px;
+    margin-top: 40px;
+}
+
+@font-face {
+    font-family: 'Greconian';
+    src: url(Greconian.ttf);
+}
+
+
+
+.h1header {
+    font-family: 'Greconian';
+    font-size: 80px;
+    margin-top: -20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+nav {
+    margin-left: -70px;
+}
+
+nav a {
+
+    height: 150px;
+    width: max-content;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 50px;
+
+
+}
+
+nav li {
+    display: inline-block;
+    /* float: left; */
+    padding-right: 15px;
+    padding-left: -20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a::after {
+    color: white;
+}
+
+a:hover {
+    color: #012268;
+}
+
+
+p {
+    text-indent: 10px;
+}
+
+
+
+@font-face {
+    font-family: 'Comic Book';
+    src: url(Comic\ Book.otf);
+}
+
+
+.button {
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    background-color: #359bc0;
+    border-color: rgb(31, 93, 112);
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+
+.button:hover {
+    background-color: #359bc0;
+}
+
+
+
+
+.pfooter {
+    color: antiquewhite;
+    padding-top: 30px;
+    text-align: right;
+    margin-top: -10px;
+    height: 60px;
+    width: 1328px;
+    margin-left: -70px;
+    padding-right: 20px;
+    background-color: rgb(56, 53, 53);
+}
+
+@font-face {
+    font-family: 'Social Media';
+    src: url('/Font/Grunge\ Social\ Media.ttf');
+}
+
+#welcome {
+    font-family: 'Normandia';
+    margin-top: -360px;
+    font-size: 40px;
+    text-align: center;
+    color: #217492;
+
+}
+
+#ket {
+    font-family: 'Comic Book';
+    margin-left: 580px;
+    margin-top: 280px;
+}
+
+.contactku {
+    background-color: #96C7C1;
+    height: 400px;
+    margin-left: -10px;
+    width: 1288px;
+    margin-top: 600px;
+}
+
+
+
+#myig {
+    font-size: 30px;
+    font-family: 'Comic Book';
+    margin-top: -100px;
+    margin-left: 120px;
+}
+
+#instagram {
+
+    font-size: 120px;
+    font-family: 'Social Media';
+    margin-top: -600px;
+    margin-left: 150px;
+}
+
+#mygm {
+    font-size: 30px;
+    font-family: 'Comic Book';
+    margin-left: 575px;
+    margin-top: -100px;
+}
+
+#gmail {
+    font-size: 120px;
+    font-family: 'Social Media';
+    margin-left: 560px;
+    margin-top: -270px;
+}
+
+#myld {
+    font-size: 30px;
+    font-family: 'Comic Book';
+    margin-left: 995px;
+    margin-top: -100px;
+}
+
+#linkedin {
+    font-size: 120px;
+    font-family: 'Social Media';
+    margin-left: 1000px;
+    margin-top: -270px;
+}
+
+#email {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    margin-right: -135px;
+    margin-top: -50px;
+}
