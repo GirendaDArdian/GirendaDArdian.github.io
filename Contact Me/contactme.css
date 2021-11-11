@@ -51,8 +51,7 @@
 
 body {
     background-color: #2F86A6;
-    height: 400px;
-    width: 1100px;
+    height: 600px;
 }
 
 .headerutama {
@@ -60,9 +59,11 @@ body {
     color: rgb(255, 255, 255);
     background-image: linear-gradient(#2F86A6, #96C7C1);
     height: max-content;
-    margin-left: -10px;
-    width: 1288px;
+    /* margin-left: -10px; */
+    width: 100%;
     padding-bottom: 150px;
+    padding-left: 15px;
+    margin-left: -8px;
     margin-top: 40px;
 }
 
@@ -157,17 +158,23 @@ p {
 
 
 
+#footer {
+    margin-top: -10px;
+    height: 60px;
+    width: 100%;
+    padding-left: 15px;
+    /* margin-left: -8px; */
+    margin-left: -8px;
+    background-color: rgb(56, 53, 53);
+    margin-right: -60px;
+    padding-top: 30px;
+
+}
 
 .pfooter {
     color: antiquewhite;
-    padding-top: 30px;
-    text-align: right;
-    margin-top: -10px;
-    height: 60px;
-    width: 1328px;
-    margin-left: -70px;
-    padding-right: 20px;
-    background-color: rgb(56, 53, 53);
+    text-align: center;
+    margin-top: -2px;
 }
 
 @font-face {
@@ -186,25 +193,27 @@ p {
 
 #ket {
     font-family: 'Comic Book';
-    margin-left: 580px;
+    margin-left: 655px;
     margin-top: 280px;
+    text-align: center;
 }
 
 .contactku {
     background-color: #96C7C1;
     height: 400px;
-    margin-left: -10px;
-    width: 1288px;
+    width: 100%;
+    padding-left: 15px;
+    margin-left: -8px;
     margin-top: 600px;
+
 }
-
-
 
 #myig {
     font-size: 30px;
     font-family: 'Comic Book';
     margin-top: -100px;
-    margin-left: 120px;
+    margin-left: -90px;
+    text-align: center;
 }
 
 #instagram {
@@ -212,41 +221,44 @@ p {
     font-size: 120px;
     font-family: 'Social Media';
     margin-top: -600px;
-    margin-left: 150px;
+    margin-left: -80px;
+    text-align: center;
 }
 
 #mygm {
     font-size: 30px;
     font-family: 'Comic Book';
-    margin-left: 575px;
+    margin-left: 595px;
+    text-align: center;
     margin-top: -100px;
 }
 
 #gmail {
     font-size: 120px;
     font-family: 'Social Media';
-    margin-left: 560px;
+    margin-left: 620px;
     margin-top: -270px;
+    text-align: center;
 }
 
 #myld {
     font-size: 30px;
     font-family: 'Comic Book';
-    margin-left: 995px;
+    margin-left: -785px;
     margin-top: -100px;
+    text-align: center;
 }
 
 #linkedin {
     font-size: 120px;
     font-family: 'Social Media';
-    margin-left: 1000px;
+    margin-left: -755px;
     margin-top: -270px;
+    text-align: center;
 }
 
 #email {
     color: white;
     font-size: 15px;
-    text-align: right;
-    margin-right: -135px;
-    margin-top: -50px;
+    text-align: center;
 }

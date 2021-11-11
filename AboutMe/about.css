@@ -1,3 +1,8 @@
+body {
+    background-color: #2F86A6;
+    height: 600px;
+}
+
 #login {
     border-radius: 20px;
     height: 40px;
@@ -53,12 +58,13 @@
     text-align: center;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(#2F86A6, #96C7C1);
-    margin-left: -10px;
-    width: 1289px;
-    height: 200px;
-    padding-bottom: 50px;
-    padding-top: 40px;
-    margin-top: -10px;
+    height: max-content;
+    /* margin-left: -10px; */
+    width: 100%;
+    padding-bottom: 150px;
+    padding-left: 15px;
+    margin-left: -8px;
+    margin-top: 40px;
 }
 
 @font-face {
@@ -125,16 +131,10 @@ p {
     text-indent: 10px;
 }
 
-
-
 @font-face {
     font-family: 'Comic Book';
     src: url(Comic\ Book.otf);
 }
-
-
-
-
 
 .button {
     border-radius: 10px;
@@ -153,38 +153,19 @@ p {
 }
 
 
-
-.pfooter {
-    color: antiquewhite;
-    padding-top: 30px;
-    text-align: right;
-    margin-top: -10px;
-    height: 60px;
-    width: 1328px;
-    margin-left: -70px;
-    padding-right: 20px;
-    background-color: rgb(56, 53, 53);
-
-}
-
-body {
-    height: 100px;
-}
-
-
 .aboutme {
     margin-top: -50px;
     background-color: #96C7C1;
     height: 1400px;
     font-size: 20px;
-    width: 1288px;
-    margin-left: -10px;
+    width: 100%;
+    padding-left: 15px;
+    margin-left: -8px;
 }
 
 .bodytittle {
     color: rgb(255, 255, 255);
     text-align: center;
-    width: 1278px;
     margin-top: -780px;
     background-size: 2000px;
 
@@ -532,4 +513,23 @@ body {
     margin-left: 50px;
     margin-top: -10px;
 
+}
+
+#footer {
+    margin-top: -10px;
+    height: 60px;
+    width: 100%;
+    padding-left: 15px;
+    /* margin-left: -8px; */
+    margin-left: -8px;
+    background-color: rgb(56, 53, 53);
+    margin-right: -60px;
+    padding-top: 30px;
+
+}
+
+.pfooter {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: -2px;
 }
