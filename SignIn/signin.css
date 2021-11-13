@@ -35,11 +35,9 @@
 
 body {
     background-color: #2F86A6;
-    height: 600px;
-    /* width: max-content; */
-    /* background-image: -webkit-gradient (#2F86A6, #96C7C1); */
-    /* width: 1280px; */
-    width: 1278px;
+    height: 500px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -50,6 +48,27 @@ header {
     margin-left: -5px;
 
 
+
+}
+
+.headerutama {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#2F86A6, #96C7C1);
+    height: max-content;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    margin-left: -8px;
+    /* margin-top: 40px; */
+}
+
+#welcome {
+    font-family: 'Normandia';
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+    color: #217492;
 
 }
 
@@ -73,7 +92,7 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 nav {
-    margin-left: -70px;
+    margin-left: -60px;
 }
 
 nav a {
@@ -122,15 +141,11 @@ p {
 .SignUp {
     text-align: center;
     font-size: 25px;
-    width: 1299px;
+    width: 100%;
+    height: 600px;
     background-color: #96C7C1;
-    margin-left: -20px;
-    padding-top: 40px;
-    margin-top: -10px;
-    height: 500px;
-
-
-
+    padding-left: 15px;
+    margin-left: -8px;
 }
 
 
@@ -139,16 +154,12 @@ p {
     border-color: rgb(255, 255, 255);
     border-radius: 15px;
     text-align: left;
-    margin-left: 370px;
+    margin-left: 330px;
     height: 320px;
     width: max-content;
     border-style: solid;
     padding: 20px;
     background-color: rgb(255, 255, 255);
-
-
-    /* margin-top: -500px; */
-
 }
 
 .inputname {
@@ -177,9 +188,6 @@ p {
     background-color: #318aaa;
 }
 
-#video {
-    border-radius: 15px;
-}
 
 .haveacc {
     font-size: 20px;
@@ -191,18 +199,20 @@ p {
     color: rgb(83, 75, 75);
 }
 
-footer {
-    margin-top: -30px;
+#footer {
+    margin-top: -10px;
     height: 60px;
-    width: 1328px;
-    margin-left: -50px;
+    width: 100%;
+    padding-left: 15px;
+    margin-left: -8px;
     background-color: rgb(56, 53, 53);
+    margin-right: -60px;
+    padding-top: 30px;
+    margin-right: -60px;
 }
 
 .pfooter {
     color: antiquewhite;
-    padding-top: 30px;
-    margin-top: -20px;
-    margin-right: 10px;
     text-align: center;
+    margin-top: -2px;
 }

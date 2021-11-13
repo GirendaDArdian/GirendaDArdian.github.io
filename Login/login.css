@@ -42,10 +42,8 @@
 body {
     background-color: #2F86A6;
     height: 600px;
-    /* width: max-content; */
-    /* background-image: -webkit-gradient (#2F86A6, #96C7C1); */
-    /* width: 1280px; */
-    width: 1278px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -85,7 +83,7 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 nav {
-    margin-left: -70px;
+    margin-left: -60px;
 }
 
 nav a {
@@ -126,14 +124,14 @@ p {
     text-indent: 10px;
 }
 
-.SignUp {
+.login {
     text-align: center;
     font-size: 25px;
-    width: 1299px;
+    width: 100%;
     background-color: #96C7C1;
-    margin-left: -20px;
+    margin-left: -8px;
     padding-top: 40px;
-    margin-top: -20px;
+    margin-top: -35px;
     height: 500px;
 }
 
@@ -147,13 +145,21 @@ p {
     border-color: rgb(255, 255, 255);
     border-radius: 15px;
     text-align: left;
-    margin-left: 370px;
+    margin-left: 330px;
     height: 200px;
     width: max-content;
     border-style: solid;
     padding: 20px;
     background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
 
+#welcome {
+    font-family: 'Normandia';
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+    color: #217492;
 }
 
 
@@ -185,10 +191,6 @@ p {
     background-color: #318aaa;
 }
 
-#video {
-    border-radius: 15px;
-}
-
 .haveacc {
     font-size: 20px;
     margin-left: 120px;
@@ -208,15 +210,17 @@ p {
 footer {
     margin-top: -30px;
     height: 60px;
-    width: 1328px;
-    margin-left: -50px;
+    width: 100%;
+    margin-left: -9px;
     background-color: rgb(56, 53, 53);
+    padding-bottom: 20px;
+
 }
 
 .pfooter {
+    width: 100%;
     color: antiquewhite;
     padding-top: 30px;
     margin-top: -20px;
-    margin-right: 10px;
     text-align: center;
 }
