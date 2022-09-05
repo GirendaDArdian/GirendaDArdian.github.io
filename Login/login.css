@@ -13,6 +13,10 @@
     font-family: 'Comic Book';
 }
 
+@font-face {
+    font-family: 'Comic Book';
+    src: url(/Font/Comic\ Book.otf);
+}
 #login:hover {
     background-color: #318aaa;
 }
@@ -59,9 +63,8 @@ header {
 
 @font-face {
     font-family: 'Greconian';
-    src: url(Greconian.ttf);
+    src: url(/Font/Greconian.ttf);
 }
-
 
 
 .h1header {
@@ -154,6 +157,11 @@ p {
     margin-top: 10px;
 }
 
+@font-face {
+    font-family: 'Normandia';
+    src: url('/Font/Normandia.ttf');
+}
+
 #welcome {
     font-family: 'Normandia';
     margin-top: 70px;
@@ -183,7 +191,7 @@ p {
     margin-left: 200px;
     margin-top: 20px;
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Comic Book';
 
 }
 
@@ -212,7 +220,7 @@ footer {
     height: 60px;
     width: 100%;
     margin-left: -9px;
-    background-color: rgb(56, 53, 53);
+    background-color: #217492;
     padding-bottom: 20px;
 
 }
